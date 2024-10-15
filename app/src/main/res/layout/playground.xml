@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_head_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/demo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/content_notify_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/demo"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/notify_background"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="Đây là một văn bản mẫu."
+        android:textColor="#FFFF"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shime1" android:duration="1000"/>
+    <item android:drawable="@drawable/shime38" android:duration="2000"/>
+    <item android:drawable="@drawable/shime39" android:duration="500"/>
+    <item android:drawable="@drawable/shime40" android:duration="400"/>
+    <item android:drawable="@drawable/shime41" android:duration="400"/>
+</animation-list>
